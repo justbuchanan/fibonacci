@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
         n = atoi(argv[1]);
     }
 
-    printf("%d\n", fib(n));
+    printf("%ld\n", fib(n));
 
     return 0;
 }

@@ -5,7 +5,7 @@
 long long fib(long long n) {
     assert(n > 0);
 
-    static long long cache[LONG_LONG_MAX];
+    static long long cache[INT_MAX];
     cache[0] = 1;   //  fib(1)
     cache[1] = 1;   //  fib(2)
     static long long maxCachedN = 2;
